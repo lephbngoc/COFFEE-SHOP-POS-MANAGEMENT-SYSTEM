@@ -1,26 +1,26 @@
-Coffee Shop Management Application  
+# Cross-Selling Analysis  
+
+> **Goal:** Analyze customer purchasing behavior to identify cross-selling opportunities using real-world data.  
+
+---
 
 ## Overview  
-This project develops a coffee shop management software to support sales, inventory, staff, customer, and revenue management. The application was built with C# and SQL Server, providing an intuitive interface that is easy to use and suitable for actual coffee shop operations.  
+This project analyzes purchase transactions from the **Chipotle Orders dataset (Kaggle)**. By applying data analysis and machine learning, the team identified frequently co-purchased products, recommended high-value combos, and developed strategies to improve sales performance.  
 
-## Features  
-- User login and role-based access control (Manager, Cashier).  
-- Menu management: add, edit, delete, search items.  
-- Staff and loyalty customer management (points, profile updates).  
-- Inventory management: track stock, restock, low-stock alerts.  
-- Order management: dine-in, takeaway, delivery via shipper.  
-- Support for promotions and combo deals.  
-- Buzzer integration for dine-in orders.  
-- Reporting and statistics: export to Excel, revenue charts.  
+---
 
-## Tools & Technologies  
-- C#, Visual Studio.  
-- SQL Server, SQL Server Management Studio.  
-- Three-layer architecture: DAL (Data Access Layer), BLL (Business Logic Layer), DTO (Data Transfer Object), GUI (Graphical User Interface).  
-- Libraries: System.Data, Microsoft.Office.Interop.Excel, System.Windows.Forms.DataVisualization.Charting.  
+## Key Features  
+- Identification of frequently co-purchased items.  
+- Predictive modeling with Logistic Regression (accuracy: **77% – 93%**).  
+- Recommendation of product combos to increase revenue.  
+- Prescriptive insights for **promotions, time-based offers, and seasonal campaigns**.  
+- Visualization of product frequency and revenue contribution.  
 
-## Business Value  
-- Optimize coffee shop operations and reduce manual errors.  
-- Support business analysis through quick reporting and visualization.  
-- Enhance customer experience with buzzer, loyalty points, and promotions.  
-- Highly applicable for small and medium-sized coffee shops.  
+---
+
+## Tools & Methods  
+- **Language & Libraries:** Python, Pandas, Numpy, Matplotlib, Mlxtend  
+- **Techniques:** Exploratory Data Analysis, Transaction Encoding, Logistic Regression  
+- **Dataset:** [Chipotle Orders (Kaggle)](https://www.kaggle.com/datasets/navneethc/chipotle)  
+
+---
